@@ -1,0 +1,13 @@
+baseURL = "https://mpiantella.github.io/london-2026/"
+languageCode = "en-GB"
+title = "London 2026"
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  description = "Six-day London (and Liverpool) trip — quick reference on the go."
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML"]

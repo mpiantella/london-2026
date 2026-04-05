@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article>
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ .Content }}
+  <div class="day-cards">
+    {{- range .Pages.ByParam "weight" -}}
+      <article>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{- with .Params.tagline -}}
+          <p class="muted">{{ . }}</p>
+        {{- end -}}
+      </article>
+    {{- end -}}
+  </div>
+</article>
+{{ end }}

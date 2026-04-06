@@ -11,7 +11,7 @@ If **https://mpiantella.github.io/london-2026/** ever looks like plain text or t
 - **Home:** [content/_index.md](content/_index.md)
 - **Repeats / home base:** [content/shared.md](content/shared.md)
 - **Each day:** [content/days/](content/days/) — filenames `friday.md` … `wednesday.md`
-- **Home overview table:** [data/trip_sites.yaml](data/trip_sites.yaml) — keep in sync with the day pages (sights vs food columns)
+- **Home overview table:** [data/trip_sites.yaml](data/trip_sites.yaml) — activities only; keep in sync with each day page
 - **Map buttons:** `{{< maps "Place Name" >}}` shortcode in any page ([layouts/shortcodes/maps.html](layouts/shortcodes/maps.html))
 - **Internal links:** use `{{< relref "shared.md" >}}` (or the right path) so links work on GitHub Pages under `/london-2026/`.
 - **Shared anchors:** `{{< sharedlink "paddington" >}}` (or `dishoom`, `treats`, `quick`) jumps to that group on [content/shared.md](content/shared.md). Section IDs are `shared-section-{slug}`.

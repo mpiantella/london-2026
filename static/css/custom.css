@@ -643,7 +643,7 @@ a.home-shared-cta[role="button"]:active {
 
 table.sites-matrix {
   width: 100%;
-  min-width: 34rem;
+  min-width: 18rem;
   border-collapse: collapse;
   font-size: 0.875rem;
   line-height: 1.45;

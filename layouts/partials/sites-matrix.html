@@ -8,8 +8,7 @@
       <thead>
         <tr>
           <th scope="col">Day</th>
-          <th scope="col">Sights, travel &amp; anchors</th>
-          <th scope="col">Food &amp; drink (alternatives)</th>
+          <th scope="col">Activities</th>
         </tr>
       </thead>
       <tbody>
@@ -23,17 +22,6 @@
             {{- if .sights -}}
             <ul class="sites-cell-list">
               {{- range .sights -}}
-              <li>{{ . }}</li>
-              {{- end -}}
-            </ul>
-            {{- else -}}
-            <span class="sites-empty">—</span>
-            {{- end -}}
-          </td>
-          <td>
-            {{- if .food -}}
-            <ul class="sites-cell-list">
-              {{- range .food -}}
               <li>{{ . }}</li>
               {{- end -}}
             </ul>

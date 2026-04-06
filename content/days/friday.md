@@ -11,7 +11,7 @@ tagline: Arrival · settle in around Paddington & Marylebone
 
 - **Paddington / Marylebone** — {{< maps "Paddington Station London" >}}
 - **Daisy Green** — {{< maps "Daisy Green London" >}}
-- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** — maps on {{< sharedlink >}}
 - **Mehmet Efendi** — {{< maps "Mehmet Efendi London" >}}
 
 ## Food — alternatives
@@ -29,11 +29,11 @@ tagline: Arrival · settle in around Paddington & Marylebone
 ### Dinner
 
 - **Daisy Green** — {{< maps "Daisy Green London" >}}
-- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** — maps on {{< sharedlink >}}
 - **Paddington area** — {{< maps "Paddington Station London" >}}
 
 ### Late / snack
 
-- **Beany Green** or **PubLove @ The Green Man** — maps on [Shared]({{< relref "shared.md" >}})
+- **Beany Green** or **PubLove @ The Green Man** — maps on {{< sharedlink >}}
 
 </div>

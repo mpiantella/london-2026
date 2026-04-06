@@ -15,11 +15,11 @@ tagline: Liverpool day trip · Anfield
 
 ## Food & drink — London (travel bookends)
 
-<p class="section-kicker"><strong>Group type:</strong> food & drink before/after trains — maps on [Shared]({{< relref "shared.md" >}}).</p>
+<p class="section-kicker"><strong>Group type:</strong> food & drink before/after trains — maps on {{< sharedlink >}}</p>
 
-- **Dishoom King’s Cross** — maps on [Shared]({{< relref "shared.md" >}})
-- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
-- **Beany Green (Paddington)** — maps on [Shared]({{< relref "shared.md" >}})
+- **Dishoom King’s Cross** — maps on {{< sharedlink >}}
+- **Mimos Cafe Bar** — maps on {{< sharedlink >}}
+- **Beany Green (Paddington)** — maps on {{< sharedlink >}}
 
 ## Food — alternatives
 
@@ -44,7 +44,7 @@ tagline: Liverpool day trip · Anfield
 
 ### Snacks / quick — London
 
-- **Dishoom King’s Cross** — maps on [Shared]({{< relref "shared.md" >}})
-- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Dishoom King’s Cross** — maps on {{< sharedlink >}}
+- **Mimos Cafe Bar** — maps on {{< sharedlink >}}
 
 </div>

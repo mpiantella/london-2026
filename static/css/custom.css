@@ -450,27 +450,91 @@ a.map-btn:hover {
   line-height: 1.45;
 }
 
-/* Home CTA */
-a[role="button"].secondary {
-  width: 100%;
-  margin-top: 0.25rem;
-  min-height: 48px;
-  font-weight: 600;
-  border-radius: var(--radius-md);
-  border-width: 2px;
-  border-color: color-mix(in srgb, var(--uk-blue) 35%, transparent);
-  color: var(--pico-primary);
-  transition: border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+/* Home — Shared list CTA (high contrast; avoid Pico .secondary gray) */
+.home-cta-block {
+  margin-top: 1.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--pico-card-border-color);
 }
 
-a[role="button"].secondary:hover {
-  border-color: var(--uk-red);
-  color: var(--uk-red);
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--uk-red) 12%, transparent);
+.home-cta-label {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--pico-color);
+  max-width: 36rem;
+}
+
+.home-cta-label strong {
+  color: var(--pico-primary);
+  font-weight: 700;
+}
+
+a.home-shared-cta[role="button"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.65rem 1.15rem;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-md);
+  border: 2px solid #012169;
+  background: #012169;
+  color: #fff !important;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(1, 33, 105, 0.28);
+  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease,
+    transform 0.12s ease;
+}
+
+a.home-shared-cta[role="button"]:hover,
+a.home-shared-cta[role="button"]:focus {
+  background: #023a8c;
+  border-color: #023a8c;
+  color: #fff !important;
+  box-shadow: 0 6px 20px rgba(1, 33, 105, 0.35);
+}
+
+a.home-shared-cta[role="button"]:active {
+  transform: scale(0.99);
+}
+
+@media (prefers-color-scheme: dark) {
+  a.home-shared-cta[role="button"] {
+    background: #4a7ec4;
+    border-color: #6b9ee0;
+    color: #0b1220 !important;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  }
+
+  a.home-shared-cta[role="button"]:hover,
+  a.home-shared-cta[role="button"]:focus {
+    background: #6b9ee0;
+    border-color: #8bb4f0;
+    color: #0b1220 !important;
+  }
+
+  .home-cta-label {
+    color: #e2e8f0;
+  }
+
+  .home-cta-label strong {
+    color: #93c5fd;
+  }
 }
 
 @media (min-width: 480px) {
-  a[role="button"].secondary {
+  a.home-shared-cta[role="button"] {
     width: auto;
+    min-width: min(100%, 16rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.home-shared-cta[role="button"]:active {
+    transform: none;
   }
 }

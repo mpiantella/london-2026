@@ -20,7 +20,7 @@ tagline: Chelsea match · Little Venice & the canal
 - **Marina Hotel** — {{< maps "MARINA HOTEL London Sussex Gardens" >}}
 - **Royal Arch Residence** — {{< maps "The Royal Arch Residence London" >}}
 
-<p class="section-kicker">Pre/post-match eating: use <strong>Food — alternatives</strong> below or venues on [Shared]({{< relref "shared.md" >}}).</p>
+<p class="section-kicker">Pre/post-match eating: use <strong>Food — alternatives</strong> below or venues on {{< sharedlink >}}</p>
 
 ## Food — alternatives
 
@@ -38,7 +38,7 @@ tagline: Chelsea match · Little Venice & the canal
 
 - **Zonzo** — {{< maps "Zonzo Restaurant London" >}}
 - **Franco Manca** — {{< maps "Franco Manca London" >}}
-- **PubLove @ The Green Man** — maps on [Shared]({{< relref "shared.md" >}})
+- **PubLove @ The Green Man** — maps on {{< sharedlink >}}
 
 ### Snacks / quick
 
@@ -48,6 +48,6 @@ tagline: Chelsea match · Little Venice & the canal
 
 ### Dinner
 
-- **Mimos Cafe Bar** or **Beany Green** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** or **Beany Green** — maps on {{< sharedlink >}}
 
 </div>

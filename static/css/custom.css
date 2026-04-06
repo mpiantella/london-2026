@@ -1,13 +1,86 @@
+/* UK-inspired palette (Union Jack blues / reds, tuned for UI contrast) */
 :root {
   --nav-height: 3.75rem;
+  --uk-blue: #012169;
+  --uk-blue-mid: #1e40af;
+  --uk-red: #c8102e;
+  --uk-red-hover: #a50d26;
+
+  /* Pico overrides — light */
+  --pico-primary: var(--uk-blue);
+  --pico-primary-background: var(--uk-blue);
+  --pico-primary-hover: var(--uk-blue-mid);
+  --pico-primary-underline: rgba(1, 33, 105, 0.35);
+  --pico-primary-focus: rgba(1, 33, 105, 0.25);
+  --pico-primary-inverse: #fff;
+  --pico-card-border-color: rgba(1, 33, 105, 0.12);
+  --pico-muted-border-color: rgba(1, 33, 105, 0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --uk-blue: #3d6fb8;
+    --uk-blue-mid: #5b8fd4;
+    --uk-red: #e85a6e;
+    --uk-red-hover: #f07082;
+
+    --pico-primary: var(--uk-blue);
+    --pico-primary-background: #1a3a6e;
+    --pico-primary-hover: var(--uk-blue-mid);
+    --pico-primary-underline: rgba(91, 143, 212, 0.45);
+    --pico-primary-focus: rgba(91, 143, 212, 0.28);
+    --pico-card-border-color: rgba(91, 143, 212, 0.2);
+    --pico-muted-border-color: rgba(148, 163, 184, 0.25);
+  }
 }
 
 html {
   scroll-padding-bottom: calc(var(--nav-height) + 1rem);
 }
 
+/* Subtle UK tricolour accent (top of viewport) */
+body::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background: linear-gradient(
+    90deg,
+    var(--uk-blue) 0%,
+    var(--uk-blue) 38%,
+    #f8fafc 38%,
+    #f8fafc 62%,
+    var(--uk-red) 62%,
+    var(--uk-red) 100%
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    background: linear-gradient(
+      90deg,
+      #1e3a5f 0%,
+      #1e3a5f 38%,
+      #94a3b8 38%,
+      #94a3b8 62%,
+      #9f2235 62%,
+      #c8102e 100%
+    );
+  }
+}
+
 body {
   padding-bottom: calc(var(--nav-height) + env(safe-area-inset-bottom, 0px));
+  padding-top: 3px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--pico-primary) 6%, var(--pico-background-color)) 0%,
+    var(--pico-background-color) 14rem
+  );
 }
 
 .bottom-nav {
@@ -23,9 +96,9 @@ body {
   align-items: stretch;
   padding: 0.35rem 0.5rem;
   padding-bottom: max(0.35rem, env(safe-area-inset-bottom));
-  background: var(--pico-card-background-color, #181c25);
-  border-top: 1px solid var(--pico-muted-border-color, #3a4150);
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  background: color-mix(in srgb, var(--pico-card-background-color) 92%, var(--uk-blue) 8%);
+  border-top: 2px solid color-mix(in srgb, var(--uk-red) 55%, transparent);
+  box-shadow: 0 -6px 24px rgba(1, 33, 105, 0.12);
 }
 
 .bottom-nav a {
@@ -37,34 +110,68 @@ body {
   padding: 0.35rem 0.2rem;
   border-radius: 0.35rem;
   text-decoration: none;
-  color: var(--pico-muted-color, #9ca3af);
-  font-weight: 500;
+  color: var(--pico-muted-color);
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .bottom-nav a:hover,
 .bottom-nav a:focus {
-  color: var(--pico-primary-hover, #fff);
-  background: color-mix(in srgb, var(--pico-primary, #3b82f6) 18%, transparent);
+  color: var(--pico-primary);
+  background: color-mix(in srgb, var(--pico-primary) 14%, transparent);
 }
 
 .bottom-nav a[aria-current="page"] {
-  color: var(--pico-primary-inverse, #fff);
-  background: var(--pico-primary, #3b82f6);
+  color: #fff;
+  background: var(--uk-red);
+  box-shadow: 0 1px 0 color-mix(in srgb, #000 25%, transparent);
+}
+
+.bottom-nav a[aria-current="page"]:hover,
+.bottom-nav a[aria-current="page"]:focus {
+  color: #fff;
+  background: var(--uk-red-hover);
 }
 
 @media (prefers-color-scheme: light) {
   .bottom-nav {
-    background: var(--pico-card-background-color, #fff);
-    box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.08);
+    background: color-mix(in srgb, #fff 88%, var(--uk-blue) 12%);
+    box-shadow: 0 -4px 20px rgba(1, 33, 105, 0.1);
   }
 }
 
 .page-header {
   margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--pico-card-border-color);
 }
 
 .page-header h1 {
   margin-bottom: 0.25rem;
+  letter-spacing: -0.02em;
+  color: var(--pico-primary);
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .page-header h1 {
+    background: linear-gradient(
+      135deg,
+      var(--pico-primary) 0%,
+      color-mix(in srgb, var(--uk-red) 75%, var(--pico-primary)) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .page-header h1 {
+      background: linear-gradient(135deg, #7eb0e8 0%, #e88a9a 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
 }
 
 .muted {
@@ -73,21 +180,23 @@ body {
 }
 
 .food-intro {
-  background: color-mix(in srgb, var(--pico-muted-border-color) 35%, transparent);
-  border-left: 3px solid var(--pico-primary, #3b82f6);
+  background: color-mix(in srgb, var(--uk-blue) 8%, var(--pico-card-background-color));
+  border-left: 4px solid var(--uk-red);
   padding: 0.65rem 1rem;
   margin: 1rem 0 1.25rem;
-  border-radius: 0 0.35rem 0.35rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
   font-size: 0.95rem;
+  box-shadow: 0 1px 0 var(--pico-card-border-color);
 }
 
 .meal-list h3 {
   font-size: 1rem;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
-  color: var(--pico-muted-color);
+  color: var(--pico-primary);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
+  font-weight: 700;
 }
 
 .map-row {
@@ -102,6 +211,18 @@ a.map-btn {
   --pico-font-size: 0.8rem;
   padding: 0.25rem 0.65rem;
   margin: 0;
+  border-color: color-mix(in srgb, var(--pico-primary) 35%, transparent);
+}
+
+a.map-btn:hover {
+  border-color: var(--uk-red);
+  color: var(--uk-red);
+}
+
+@media (prefers-color-scheme: dark) {
+  a.map-btn:hover {
+    color: var(--uk-red);
+  }
 }
 
 .day-cards {
@@ -118,10 +239,35 @@ a.map-btn {
 
 .day-cards article {
   margin: 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--pico-card-border-color);
+  border-left: 4px solid var(--pico-primary);
+  padding: 0.85rem 1rem;
+  background: color-mix(in srgb, var(--pico-card-background-color) 100%, var(--uk-blue) 0%);
+  box-shadow: 0 2px 12px rgba(1, 33, 105, 0.06);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.day-cards article:nth-child(even) {
+  border-left-color: var(--uk-red);
+}
+
+.day-cards article:hover {
+  border-color: color-mix(in srgb, var(--pico-primary) 25%, var(--pico-card-border-color));
+  box-shadow: 0 4px 16px rgba(1, 33, 105, 0.1);
 }
 
 .day-cards h3 {
   margin-bottom: 0.35rem;
+}
+
+.day-cards h3 a {
+  text-decoration: none;
+}
+
+.day-cards h3 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .day-cards p {
@@ -131,4 +277,15 @@ a.map-btn {
 
 main.container {
   max-width: 40rem;
+}
+
+/* Primary CTA on home */
+a[role="button"].secondary {
+  border-color: color-mix(in srgb, var(--uk-blue) 40%, transparent);
+  color: var(--pico-primary);
+}
+
+a[role="button"].secondary:hover {
+  border-color: var(--uk-red);
+  color: var(--uk-red);
 }

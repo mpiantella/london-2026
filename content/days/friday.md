@@ -7,29 +7,33 @@ tagline: Arrival · settle in around Paddington & Marylebone
 
 ## Activities
 
-- Ease into the area — **Paddington** / **Marylebone** — use your two saved map pins for whatever you had planned (walk, hotel, errands).
-- **Daisy Green** — Australian brunch & coffee — {{< maps "Daisy Green London" >}} · [daisygreenfood.com](https://www.daisygreenfood.com/)
-- **Mimos Cafe Bar** — see [Shared]({{< relref "shared.md" >}}) for map + site.
-- **Mehmet Efendi** — Turkish coffee / treats — {{< maps "Mehmet Efendi London" >}} · [mehmetefendi.co.uk](https://mehmetefendi.co.uk/)
+<p class="section-kicker"><strong>Group type:</strong> sightseeing & neighbourhood — flexible order.</p>
+
+- **Paddington / Marylebone** — {{< maps "Paddington Station London" >}}
+- **Daisy Green** — {{< maps "Daisy Green London" >}}
+- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mehmet Efendi** — {{< maps "Mehmet Efendi London" >}}
 
 ## Food — alternatives
 
+<p class="section-kicker"><strong>Group type:</strong> restaurants & cafés — <strong>pick one</strong> per meal; each bullet is a backup option.</p>
+
 <div class="food-intro" role="note">
 
-**Pick one option per meal.** Everything below is a **backup** if your first choice is full, closed, or you’re not in the mood — not a list to complete.
+**Pick one place per meal.** Subheadings are meal slots (dinner, late snack, etc.). Bullets under each slot are <strong>alternatives</strong>, not a checklist.
 
 </div>
 
 <div class="meal-list">
 
-### Dinner / evening
+### Dinner
 
 - **Daisy Green** — {{< maps "Daisy Green London" >}}
-- **Mimos** — [Shared]({{< relref "shared.md" >}})
-- Anything near the hotel — search Maps when tired.
+- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Paddington area** — {{< maps "Paddington Station London" >}}
 
-### Late / casual
+### Late / snack
 
-- **Beany Green** or **PubLove @ The Green Man** — [Shared]({{< relref "shared.md" >}})
+- **Beany Green** or **PubLove @ The Green Man** — maps on [Shared]({{< relref "shared.md" >}})
 
 </div>

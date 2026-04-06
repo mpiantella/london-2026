@@ -5,44 +5,46 @@ weight: 5
 tagline: Liverpool day trip · Anfield
 ---
 
-## Anchors (add your real times)
+## Anchors
 
-- **Euston** ↔ **Liverpool Lime Street** — {{< maps "Euston Square Station" >}} · {{< maps "Liverpool Lime Street Station" >}} — *add train times, seat, and return buffer.*
-- **Anfield** — {{< maps "Anfield Stadium Liverpool" >}} — *stadium entry rules, bag policy, and how early to arrive.*
+<p class="section-kicker"><strong>Group type:</strong> fixed travel & match — add train times, seats, and stadium entry from your tickets.</p>
 
-## London bookends
+- **Euston** — {{< maps "Euston Square Station" >}}
+- **Liverpool Lime Street** — {{< maps "Liverpool Lime Street Station" >}}
+- **Anfield** — {{< maps "Anfield Stadium Liverpool" >}}
 
-- Early or late in London: **Dishoom King’s Cross** — [Shared]({{< relref "shared.md" >}}) (map link there too).
-- **Mimos** / **Beany Green** — [Shared]({{< relref "shared.md" >}}) — near Paddington when you’re back.
+## Food & drink — London (travel bookends)
 
-## Liverpool
+<p class="section-kicker"><strong>Group type:</strong> food & drink before/after trains — maps on [Shared]({{< relref "shared.md" >}}).</p>
 
-- **Bold Street Coffee** — {{< maps "Bold Street Coffee Liverpool" >}}
-- **Rudy’s Pizza** — {{< maps "Rudy's Pizza Liverpool" >}}
-- **The Philharmonic Dining Rooms** — {{< maps "The Philharmonic Dining Rooms Liverpool" >}}
+- **Dishoom King’s Cross** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
+- **Beany Green (Paddington)** — maps on [Shared]({{< relref "shared.md" >}})
 
 ## Food — alternatives
 
+<p class="section-kicker"><strong>Group type:</strong> restaurants & cafés — <strong>pick one</strong> per meal in each city. Each bullet is a backup option.</p>
+
 <div class="food-intro" role="note">
 
-**Pick one option per meal** in each city. Trains beat a restaurant marathon.
+**Pick one place per meal.** Subheadings name the <strong>city</strong> and <strong>meal slot</strong>. Bullets are <strong>alternatives</strong>, not a checklist.
 
 </div>
 
 <div class="meal-list">
 
-### Liverpool — lunch
+### Lunch — Liverpool
 
-- **Bold Street Coffee** — light — {{< maps "Bold Street Coffee Liverpool" >}}
+- **Bold Street Coffee** — {{< maps "Bold Street Coffee Liverpool" >}}
 - **Rudy’s Pizza** — {{< maps "Rudy's Pizza Liverpool" >}}
 
-### Liverpool — dinner / pub
+### Dinner / pub — Liverpool
 
 - **The Philharmonic Dining Rooms** — {{< maps "The Philharmonic Dining Rooms Liverpool" >}}
 
-### London — if you’re rushing at Euston / Paddington
+### Snacks / quick — London
 
-- **Dishoom King’s Cross** — [Shared]({{< relref "shared.md" >}})
-- **Mimos** — [Shared]({{< relref "shared.md" >}})
+- **Dishoom King’s Cross** — maps on [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** — maps on [Shared]({{< relref "shared.md" >}})
 
 </div>

@@ -246,6 +246,28 @@ main.container {
   font-size: 0.95rem;
 }
 
+/* Explains what kind of list / section follows (activities vs food, etc.) */
+p.section-kicker {
+  font-size: 0.875rem;
+  color: var(--pico-muted-color);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+p.section-kicker strong {
+  color: color-mix(in srgb, var(--pico-color) 88%, var(--pico-muted-color));
+  font-weight: 600;
+}
+
+article > h2 + p.section-kicker {
+  margin-top: -0.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.meal-list > p.section-kicker {
+  margin-bottom: 0.5rem;
+}
+
 /* In-page sections (day content) */
 article > h2 {
   font-size: clamp(1.05rem, 4vw, 1.2rem);
@@ -261,13 +283,19 @@ article > h2:first-of-type {
   margin-top: 0.25rem;
 }
 
-article > ul > li {
+article > ul > li,
+article > ol > li {
   margin-bottom: 0.55rem;
   line-height: 1.6;
 }
 
 article > ul > li::marker {
   color: color-mix(in srgb, var(--uk-red) 75%, var(--pico-muted-color));
+}
+
+article > ol > li::marker {
+  color: color-mix(in srgb, var(--pico-primary) 75%, var(--pico-muted-color));
+  font-weight: 600;
 }
 
 .food-intro {

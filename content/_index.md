@@ -3,6 +3,8 @@ title: London 2026
 tagline: Six days — London, Chelsea, Liverpool, and back. Tap a day or Shared for repeats.
 ---
 
+<p class="section-kicker"><strong>Group type:</strong> trip days — each card is one day’s plan; <strong>Shared</strong> lists repeats (food & drink you might use any day).</p>
+
 <section class="day-cards" aria-label="Days">
   <article>
     <h3><a href="{{< relref "days/friday.md" >}}">Friday</a></h3>

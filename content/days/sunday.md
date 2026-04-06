@@ -5,22 +5,30 @@ weight: 3
 tagline: Chelsea match · Little Venice & the canal
 ---
 
-## Anchors (add your real times)
+## Anchors
 
-- **Stamford Bridge** — {{< maps "Stamford Bridge London" >}} — *add kickoff, gate, and travel buffer.*
-- Pre/post-match food often works better **away from the immediate stadium crush** — use the lists below or fall back to [Shared]({{< relref "shared.md" >}}).
+<p class="section-kicker"><strong>Group type:</strong> fixed plans — add kickoff, gates, and travel times from your tickets.</p>
+
+- **Stamford Bridge** — {{< maps "Stamford Bridge London" >}}
 
 ## Activities
 
+<p class="section-kicker"><strong>Group type:</strong> sightseeing & walking — around the match.</p>
+
 - **Little Venice** — {{< maps "Little Venice London" >}}
-- **Regent’s Canal** walk toward Camden or back toward Paddington — {{< maps "Regents Canal London" >}}
-- Hotel / luggage reality check — **Marina Hotel** & **Royal Arch Residence** pins were in your original plan — {{< maps "MARINA HOTEL London Sussex Gardens" >}} · {{< maps "The Royal Arch Residence London" >}}
+- **Regent’s Canal** — {{< maps "Regents Canal London" >}}
+- **Marina Hotel** — {{< maps "MARINA HOTEL London Sussex Gardens" >}}
+- **Royal Arch Residence** — {{< maps "The Royal Arch Residence London" >}}
+
+<p class="section-kicker">Pre/post-match eating: use <strong>Food — alternatives</strong> below or venues on [Shared]({{< relref "shared.md" >}}).</p>
 
 ## Food — alternatives
 
+<p class="section-kicker"><strong>Group type:</strong> restaurants & cafés — <strong>pick one</strong> per meal; each bullet is a backup option.</p>
+
 <div class="food-intro" role="note">
 
-**Pick one per meal.** Quick options are here on purpose — match days are about timing, not ticking every restaurant off.
+**Pick one place per meal.** Subheadings are meal slots. Bullets under each slot are <strong>alternatives</strong>, not a checklist.
 
 </div>
 
@@ -30,14 +38,16 @@ tagline: Chelsea match · Little Venice & the canal
 
 - **Zonzo** — {{< maps "Zonzo Restaurant London" >}}
 - **Franco Manca** — {{< maps "Franco Manca London" >}}
-- **PubLove @ The Green Man** — [Shared]({{< relref "shared.md" >}})
+- **PubLove @ The Green Man** — maps on [Shared]({{< relref "shared.md" >}})
 
-### Quick / reliable
+### Snacks / quick
 
-- **Pret**, **Itsu**, **Nando’s** — search nearby — {{< maps "Pret A Manger London" >}} · {{< maps "Itsu London" >}} · {{< maps "Nando's London" >}}
+- **Pret A Manger** — {{< maps "Pret A Manger London" >}}
+- **Itsu** — {{< maps "Itsu London" >}}
+- **Nando’s** — {{< maps "Nando's London" >}}
 
-### Dinner (if energy)
+### Dinner
 
-- **Mimos** or **Beany Green** — [Shared]({{< relref "shared.md" >}})
+- **Mimos Cafe Bar** or **Beany Green** — maps on [Shared]({{< relref "shared.md" >}})
 
 </div>

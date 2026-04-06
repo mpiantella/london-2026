@@ -4,27 +4,38 @@ tagline: Places that show up on several days — use when you’re nearby, not e
 description: Recurring venues and quick options for the London 2026 trip.
 ---
 
-These are **shortcuts**: you don’t need to revisit every day. On each day page, activities link here instead of repeating the same blurb.
+<p class="section-kicker"><strong>Group type:</strong> recurring <strong>food & drink</strong> and nearby spots. Same venues linked from day pages so details stay in one place.</p>
 
-## Near Paddington / Marylebone
+## Food & drink — Paddington / Marylebone
 
-- **Mimos Cafe Bar** — {{< maps "Mimos Cafe Bar London" >}} · [Website](https://mimoscafe.has.restaurant/)
+<p class="section-kicker"><strong>Group type:</strong> café / pub near the hotel.</p>
+
+- **Mimos Cafe Bar** — {{< maps "Mimos Cafe Bar London" >}}
 - **Beany Green (Paddington)** — {{< maps "Beany Green Paddington" >}}
 - **PubLove @ The Green Man (Paddington)** — {{< maps "PubLove @ The Greenman Paddington" >}}
 
-## Dishoom (two useful locations)
+## Food & drink — Dishoom (two locations)
 
-- **King’s Cross** — {{< maps "Dishoom King's Cross" >}} (handy for Euston / trains north)
-- **Covent Garden** — {{< maps "Dishoom Covent Garden" >}} (West End evenings)
+<p class="section-kicker"><strong>Group type:</strong> sit-down Indian — two branches for different parts of town.</p>
 
-## Treat meals (book if you can)
+- **King’s Cross** — {{< maps "Dishoom King's Cross" >}}
+- **Covent Garden** — {{< maps "Dishoom Covent Garden" >}}
+
+## Food & drink — treat meals
+
+<p class="section-kicker"><strong>Group type:</strong> nicer dinners — book ahead if you can.</p>
 
 - **Hawksmoor Seven Dials** — {{< maps "Hawksmoor Seven Dials" >}}
 - **Blacklock Soho** — {{< maps "Blacklock Soho" >}}
 - **Flat Iron Soho** — {{< maps "Flat Iron Soho" >}}
-- **Honest Burgers** — Camden or Soho depending on the day — {{< maps "Honest Burgers Soho" >}} · {{< maps "Honest Burgers Camden" >}}
+- **Honest Burgers (Soho)** — {{< maps "Honest Burgers Soho" >}}
+- **Honest Burgers (Camden)** — {{< maps "Honest Burgers Camden" >}}
 - **Five Guys (Covent Garden)** — {{< maps "Five Guys Covent Garden" >}}
 
-## Quick / flexible
+## Food & drink — quick chains
 
-- **Pret**, **Itsu**, **Nando’s** — search when hungry; good fillers around matches and travel.
+<p class="section-kicker"><strong>Group type:</strong> fast filler — pick whichever is closest when you need speed.</p>
+
+- **Pret A Manger** — {{< maps "Pret A Manger London" >}}
+- **Itsu** — {{< maps "Itsu London" >}}
+- **Nando’s** — {{< maps "Nando's London" >}}

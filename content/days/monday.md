@@ -5,27 +5,30 @@ weight: 4
 tagline: Camden · Knightsbridge · West End
 ---
 
-## Choose your spine
+## Route options
 
-**Option A — North first:** Camden in the morning → tube west for **Harrods** / **Piccadilly** → **Soho** evening.
+<p class="section-kicker"><strong>Group type:</strong> day shape — pick <strong>one</strong> route idea; not two full days in one.</p>
 
-**Option B — Central first:** Morning around **Piccadilly / Soho** → **Camden** later — check opening hours for markets.
-
-Don’t try to “do all” in one day; the food list is **alternatives** by neighborhood.
+- **A — North first:** Camden (morning) → **Harrods** / **Piccadilly** → **Soho** (evening).
+- **B — Central first:** **Piccadilly / Soho** (morning) → **Camden** (later).
 
 ## Activities
 
+<p class="section-kicker"><strong>Group type:</strong> sightseeing & shopping — order follows your route option.</p>
+
 - **Camden Market** — {{< maps "Camden Market" >}}
-- **Camden Assembly** (gigs / venue) — {{< maps "Camden Assembly London" >}} — *only if something’s on.*
+- **Camden Assembly** — {{< maps "Camden Assembly London" >}}
 - **Harrods** — {{< maps "Harrods London" >}}
 - **Piccadilly Circus** — {{< maps "Piccadilly Circus" >}}
 - **Soho** — {{< maps "Soho London" >}}
 
 ## Food — alternatives
 
+<p class="section-kicker"><strong>Group type:</strong> restaurants & cafés — <strong>pick one</strong> per meal; grouped by area. Each bullet is a backup option.</p>
+
 <div class="food-intro" role="note">
 
-**Pick one option per meal.** Grouped by vibe — not an order of battle.
+**Pick one place per meal.** Subheadings are meal slots. Bullets under each slot are <strong>alternatives</strong>, not a checklist.
 
 </div>
 
@@ -34,19 +37,19 @@ Don’t try to “do all” in one day; the food list is **alternatives** by nei
 ### Breakfast / brunch
 
 - **Eggbreak** — {{< maps "Eggbreak London" >}}
-- **The Breakfast Club (Southwark)** — {{< maps "The Breakfast Club Southwark" >}} — *only if you’re south early*
+- **The Breakfast Club (Southwark)** — {{< maps "The Breakfast Club Southwark" >}}
 - **Granger & Co (Notting Hill)** — {{< maps "Granger and Co Notting Hill" >}}
 
 ### Lunch (Camden)
 
 - **Makatcha (Camden)** — {{< maps "Makatcha Camden" >}}
-- **Honest Burgers (Camden)** — [Shared]({{< relref "shared.md" >}})
+- **Honest Burgers (Camden)** — maps on [Shared]({{< relref "shared.md" >}})
 
 ### Dinner (Soho / West End)
 
 - **BAO Soho** — {{< maps "BAO Soho" >}}
 - **Berenjak** — {{< maps "Berenjak London" >}}
 - **Gymkhana** — {{< maps "Gymkhana London" >}}
-- **Dishoom Covent Garden** — [Shared]({{< relref "shared.md" >}})
+- **Dishoom Covent Garden** — maps on [Shared]({{< relref "shared.md" >}})
 
 </div>

@@ -5,18 +5,22 @@ weight: 6
 tagline: Thames & Tower · last West End bites
 ---
 
-## Activities (compact)
+## Activities
+
+<p class="section-kicker"><strong>Group type:</strong> sightseeing — compact order; skip steps if time is tight.</p>
 
 1. **Tower of London** — {{< maps "Tower of London" >}}
 2. **Tower Bridge** — {{< maps "Tower Bridge" >}}
 3. **Trafalgar Square** — {{< maps "Trafalgar Square" >}}
-4. Optional pass through **Soho** on the way “home” — {{< maps "Soho London" >}}
+4. **Soho** (optional) — {{< maps "Soho London" >}}
 
 ## Food — alternatives
 
+<p class="section-kicker"><strong>Group type:</strong> restaurants & cafés — <strong>pick one</strong> per meal; each bullet is a backup option.</p>
+
 <div class="food-intro" role="note">
 
-**Pick one option per meal.** Last-day list — favourites repeated on purpose so you’re not hunting.
+**Pick one place per meal.** Subheadings are meal slots or area. Bullets under each slot are <strong>alternatives</strong>, not a checklist.
 
 </div>
 
@@ -24,24 +28,24 @@ tagline: Thames & Tower · last West End bites
 
 ### Lunch
 
-- **Padella** — {{< maps "Padella London" >}} — *often a queue; have a B-plan.*
-- **Dishoom Covent Garden** — [Shared]({{< relref "shared.md" >}})
+- **Padella** — {{< maps "Padella London" >}}
+- **Dishoom Covent Garden** — maps on [Shared]({{< relref "shared.md" >}})
 - **Tyburn Kitchen** — {{< maps "Tyburn Kitchen London" >}}
 
-### Dinner (bigger)
+### Dinner (sit-down)
 
-- **Hawksmoor Seven Dials** — [Shared]({{< relref "shared.md" >}})
-- **Blacklock** / **Flat Iron** — [Shared]({{< relref "shared.md" >}})
+- **Hawksmoor Seven Dials** — maps on [Shared]({{< relref "shared.md" >}})
+- **Blacklock Soho** / **Flat Iron Soho** — maps on [Shared]({{< relref "shared.md" >}})
 
-### Casual / quick
+### Dinner / quick (casual)
 
-- **Five Guys Covent Garden** — [Shared]({{< relref "shared.md" >}})
-- **Honest Burgers Soho** — [Shared]({{< relref "shared.md" >}})
+- **Five Guys Covent Garden** — maps on [Shared]({{< relref "shared.md" >}})
+- **Honest Burgers Soho** — maps on [Shared]({{< relref "shared.md" >}})
 
-### Near Edgware Road (if that’s your exit)
+### Snacks / quick — Edgware Road
 
 - **Maroush** — {{< maps "Maroush Edgware Road" >}}
 - **Líbere** — {{< maps "Líbere London Edgware Road" >}}
-- **Pret (Edgware Road)** — {{< maps "Pret a Manger Edgware Road London" >}}
+- **Pret A Manger (Edgware Road)** — {{< maps "Pret a Manger Edgware Road London" >}}
 
 </div>

@@ -1,6 +1,8 @@
 # london-2026
 
-Trip guide as a static site (**Hugo** + [Pico CSS](https://picocss.com/)), tuned for phone use: bottom navigation, **Google Maps** buttons, and copy that treats restaurant lists as **alternatives** (see [Shared](content/shared.md)).
+Trip guide as a static site (**Hugo** + [Pico CSS](https://picocss.com/), vendored under `static/css/`), tuned for phone use: bottom navigation, **Google Maps** buttons, and copy that treats restaurant lists as **alternatives** (see [Shared](content/shared.md)).
+
+If **https://mpiantella.github.io/london-2026/** ever looks like plain text or the repo README, do a **hard refresh** (cache) or try a private window — the deployed site is the Hugo HTML under `public/`, not `README.md`.
 
 **Live site (after deploy):** [https://mpiantella.github.io/london-2026/](https://mpiantella.github.io/london-2026/)
 

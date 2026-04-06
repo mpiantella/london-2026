@@ -4,5 +4,5 @@
 <meta name="theme-color" content="#012169">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ "css/pico.min.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">

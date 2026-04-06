@@ -450,6 +450,75 @@ a.map-btn:hover {
   line-height: 1.45;
 }
 
+/* Home — hotel (find your way back) */
+.home-hotel {
+  margin: 0 0 1.25rem;
+  padding: 1rem 1.1rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--pico-card-border-color);
+  border-left: 4px solid var(--uk-blue);
+  background: color-mix(in srgb, var(--pico-primary) 7%, var(--pico-card-background-color));
+  box-shadow: var(--shadow-card);
+}
+
+.home-hotel-heading {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--pico-primary);
+  border: none;
+  padding: 0;
+}
+
+.home-hotel-name {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--pico-color);
+}
+
+.home-hotel-address {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--pico-muted-color);
+}
+
+.home-hotel-phone {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+}
+
+.home-hotel-phone a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-hotel-phone a:hover,
+.home-hotel-phone a:focus {
+  text-decoration: underline;
+}
+
+.home-hotel-maps {
+  margin: 0;
+}
+
+.home-hotel-maps .map-btn {
+  width: 100%;
+  justify-content: center;
+  min-height: 44px;
+}
+
+@media (min-width: 420px) {
+  .home-hotel-maps .map-btn {
+    width: auto;
+  }
+}
+
 /* Home — Shared list CTA (high contrast; avoid Pico .secondary gray) */
 .home-cta-block {
   margin-top: 1.35rem;

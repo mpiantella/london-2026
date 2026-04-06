@@ -1,0 +1,79 @@
+# Overview table on the home page — keep in sync with content/days/*.md
+heading: "All places by day"
+intro: "Sights, travel anchors, and food options named on each day page (Maps buttons live on those pages). Food lists are alternatives — pick one per meal."
+
+days:
+  - key: friday
+    label: Friday
+    summary: "Arrival · Paddington & Marylebone"
+    sights:
+      - Paddington / Marylebone
+    food:
+      - Daisy Green, Mimos, Paddington area
+      - Beany Green, PubLove @ The Green Man
+
+  - key: saturday
+    label: Saturday
+    summary: "Westminster & the river"
+    sights:
+      - Big Ben & Parliament
+      - London Eye
+      - Westminster Abbey
+      - Buckingham Palace
+      - Covent Garden / Soho
+    food:
+      - Beany Green, Mimos
+      - Dishoom Covent Garden, Laughing Halibut, Five Guys
+      - Blacklock, Flat Iron, Hawksmoor Seven Dials
+      - Dishoom King’s Cross
+
+  - key: sunday
+    label: Sunday
+    summary: "Match day · Little Venice"
+    sights:
+      - Stamford Bridge
+      - Little Venice
+      - Regent’s Canal
+      - Marina Hotel, Royal Arch Residence
+    food:
+      - Zonzo, Franco Manca, PubLove @ The Green Man
+      - Pret, Itsu, Nando’s
+      - Mimos, Beany Green
+
+  - key: monday
+    label: Monday
+    summary: "Camden · Knightsbridge · Soho"
+    sights:
+      - Camden Market
+      - Camden Assembly
+      - Harrods
+      - Piccadilly Circus
+      - Soho
+    food:
+      - Eggbreak, Breakfast Club (Southwark), Granger & Co
+      - Makatcha, Honest Burgers (Camden)
+      - BAO, Berenjak, Gymkhana, Dishoom Covent Garden
+
+  - key: tuesday
+    label: Tuesday
+    summary: "Liverpool & Anfield"
+    sights:
+      - Euston, Liverpool Lime Street
+      - Anfield
+    food:
+      - Dishoom King’s Cross, Mimos, Beany Green (London bookends)
+      - Bold Street Coffee, Rudy’s Pizza, Philharmonic Dining Rooms (Liverpool)
+
+  - key: wednesday
+    label: Wednesday
+    summary: "Tower & Thames"
+    sights:
+      - Tower of London
+      - Tower Bridge
+      - Trafalgar Square
+      - Soho (optional)
+    food:
+      - Padella, Dishoom Covent Garden, Tyburn Kitchen
+      - Hawksmoor, Blacklock, Flat Iron
+      - Five Guys, Honest Burgers Soho
+      - Maroush, Líbere, Pret (Edgware Road)

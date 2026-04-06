@@ -32,6 +32,8 @@ tagline: Six days — London, Chelsea, Liverpool, and back. Tap a day or Shared 
   </article>
 </section>
 
+{{< sitesmatrix >}}
+
 <div class="home-cta-block">
 <p class="home-cta-label"><strong>Shared list</strong> — restaurants, pubs, and quick bites that show up on several days (Dishoom, Paddington spots, treat dinners, Pret/Itsu, etc.). One page so you don’t hunt the same names on every day.</p>
 <a href="{{< relref "shared.md" >}}" role="button" class="home-shared-cta">Open the Shared list</a>

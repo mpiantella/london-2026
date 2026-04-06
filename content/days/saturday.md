@@ -29,23 +29,23 @@ tagline: Big sights — Westminster & the river
 
 ### Breakfast / brunch
 
-- **Beany Green (Paddington)** — maps on {{< sharedlink >}}
-- **Mimos Cafe Bar** — maps on {{< sharedlink >}}
+- **Beany Green (Paddington)** — maps on {{< sharedlink "paddington" >}}
+- **Mimos Cafe Bar** — maps on {{< sharedlink "paddington" >}}
 
 ### Lunch
 
-- **Dishoom Covent Garden** — maps on {{< sharedlink >}}
+- **Dishoom Covent Garden** — maps on {{< sharedlink "dishoom" >}}
 - **The Laughing Halibut** — {{< maps "The Laughing Halibut London" >}}
-- **Five Guys Covent Garden** — maps on {{< sharedlink >}}
+- **Five Guys Covent Garden** — maps on {{< sharedlink "treats" >}}
 
 ### Dinner (sit-down)
 
-- **Blacklock Soho** — maps on {{< sharedlink >}}
-- **Flat Iron Soho** — maps on {{< sharedlink >}}
-- **Hawksmoor Seven Dials** — maps on {{< sharedlink >}}
+- **Blacklock Soho** — maps on {{< sharedlink "treats" >}}
+- **Flat Iron Soho** — maps on {{< sharedlink "treats" >}}
+- **Hawksmoor Seven Dials** — maps on {{< sharedlink "treats" >}}
 
 ### Dinner (casual)
 
-- **Dishoom King’s Cross** — maps on {{< sharedlink >}}
+- **Dishoom King’s Cross** — maps on {{< sharedlink "dishoom" >}}
 
 </div>

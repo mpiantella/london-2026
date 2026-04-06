@@ -538,3 +538,153 @@ a.home-shared-cta[role="button"]:active {
     transform: none;
   }
 }
+
+/* Home — all places by day (tabular overview) */
+.sites-matrix-section {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--pico-card-border-color);
+}
+
+.sites-matrix-section > h2 {
+  font-size: clamp(1.15rem, 4vw, 1.35rem);
+  margin-bottom: 0.35rem;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+
+.sites-matrix-section > h2 + .section-kicker {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.sites-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem 0.35rem;
+  border-radius: var(--radius-md);
+}
+
+.sites-table-scroll:focus-visible {
+  outline: 2px solid var(--pico-primary);
+  outline-offset: 2px;
+}
+
+table.sites-matrix {
+  width: 100%;
+  min-width: 34rem;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  box-shadow: var(--shadow-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--pico-card-border-color);
+}
+
+.sites-matrix thead {
+  background: color-mix(in srgb, var(--pico-primary) 14%, var(--pico-card-background-color));
+}
+
+.sites-matrix th,
+.sites-matrix td {
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--pico-card-border-color);
+}
+
+.sites-matrix thead th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--pico-primary);
+  border-bottom: 2px solid color-mix(in srgb, var(--uk-red) 35%, var(--pico-card-border-color));
+}
+
+.sites-matrix tbody tr:last-child th,
+.sites-matrix tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.sites-matrix tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--pico-primary) 4%, transparent);
+}
+
+.sites-matrix th[scope="row"] {
+  min-width: 7.5rem;
+  background: color-mix(in srgb, var(--pico-card-background-color) 92%, var(--pico-primary));
+}
+
+.sites-matrix th[scope="row"] a {
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.sites-matrix th[scope="row"] a:hover {
+  text-decoration: underline;
+}
+
+.sites-day-summary {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--pico-muted-color);
+  line-height: 1.35;
+}
+
+ul.sites-cell-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+ul.sites-cell-list li {
+  margin-bottom: 0.35rem;
+}
+
+ul.sites-cell-list li:last-child {
+  margin-bottom: 0;
+}
+
+.sites-empty {
+  color: var(--pico-muted-color);
+}
+
+@media (min-width: 720px) {
+  table.sites-matrix {
+    min-width: 0;
+    font-size: 0.9rem;
+  }
+
+  .sites-matrix th,
+  .sites-matrix td {
+    padding: 0.75rem 0.9rem;
+  }
+}
+
+/* Shared page — section anchors (scroll clear of top strip / nav) */
+h2[id^="shared-section-"] {
+  scroll-margin-top: 5.5rem;
+}
+
+a.shared-venue-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.shared-venue-link strong {
+  color: var(--pico-primary);
+  font-weight: 700;
+}
+
+a.shared-venue-link:hover strong,
+a.shared-venue-link:focus strong {
+  color: var(--uk-red);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}

@@ -1,0 +1,50 @@
+{{- $page := . -}}
+{{- with hugo.Data.trip_sites -}}
+<section class="sites-matrix-section" aria-label="{{ .heading }}">
+  <h2>{{ .heading }}</h2>
+  <p class="section-kicker">{{ .intro }}</p>
+  <div class="sites-table-scroll" tabindex="0">
+    <table class="sites-matrix">
+      <thead>
+        <tr>
+          <th scope="col">Day</th>
+          <th scope="col">Sights, travel &amp; anchors</th>
+          <th scope="col">Food &amp; drink (alternatives)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range .days -}}
+        <tr>
+          <th scope="row">
+            <a href="{{ relref $page (printf "days/%s.md" .key) }}">{{ .label }}</a>
+            <span class="sites-day-summary">{{ .summary }}</span>
+          </th>
+          <td>
+            {{- if .sights -}}
+            <ul class="sites-cell-list">
+              {{- range .sights -}}
+              <li>{{ . }}</li>
+              {{- end -}}
+            </ul>
+            {{- else -}}
+            <span class="sites-empty">—</span>
+            {{- end -}}
+          </td>
+          <td>
+            {{- if .food -}}
+            <ul class="sites-cell-list">
+              {{- range .food -}}
+              <li>{{ . }}</li>
+              {{- end -}}
+            </ul>
+            {{- else -}}
+            <span class="sites-empty">—</span>
+            {{- end -}}
+          </td>
+        </tr>
+        {{- end -}}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{- end -}}

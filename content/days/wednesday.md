@@ -29,18 +29,18 @@ tagline: Thames & Tower · last West End bites
 ### Lunch
 
 - **Padella** — {{< maps "Padella London" >}}
-- **Dishoom Covent Garden** — maps on {{< sharedlink >}}
+- **Dishoom Covent Garden** — maps on {{< sharedlink "dishoom" >}}
 - **Tyburn Kitchen** — {{< maps "Tyburn Kitchen London" >}}
 
 ### Dinner (sit-down)
 
-- **Hawksmoor Seven Dials** — maps on {{< sharedlink >}}
-- **Blacklock Soho** / **Flat Iron Soho** — maps on {{< sharedlink >}}
+- **Hawksmoor Seven Dials** — maps on {{< sharedlink "treats" >}}
+- **Blacklock Soho** / **Flat Iron Soho** — maps on {{< sharedlink "treats" >}}
 
 ### Dinner / quick (casual)
 
-- **Five Guys Covent Garden** — maps on {{< sharedlink >}}
-- **Honest Burgers Soho** — maps on {{< sharedlink >}}
+- **Five Guys Covent Garden** — maps on {{< sharedlink "treats" >}}
+- **Honest Burgers Soho** — maps on {{< sharedlink "treats" >}}
 
 ### Snacks / quick — Edgware Road
 

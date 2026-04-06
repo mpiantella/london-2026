@@ -43,13 +43,13 @@ tagline: Camden · Knightsbridge · West End
 ### Lunch (Camden)
 
 - **Makatcha (Camden)** — {{< maps "Makatcha Camden" >}}
-- **Honest Burgers (Camden)** — maps on {{< sharedlink >}}
+- **Honest Burgers (Camden)** — maps on {{< sharedlink "treats" >}}
 
 ### Dinner (Soho / West End)
 
 - **BAO Soho** — {{< maps "BAO Soho" >}}
 - **Berenjak** — {{< maps "Berenjak London" >}}
 - **Gymkhana** — {{< maps "Gymkhana London" >}}
-- **Dishoom Covent Garden** — maps on {{< sharedlink >}}
+- **Dishoom Covent Garden** — maps on {{< sharedlink "dishoom" >}}
 
 </div>

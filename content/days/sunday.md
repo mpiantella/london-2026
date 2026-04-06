@@ -38,7 +38,7 @@ tagline: Chelsea match · Little Venice & the canal
 
 - **Zonzo** — {{< maps "Zonzo Restaurant London" >}}
 - **Franco Manca** — {{< maps "Franco Manca London" >}}
-- **PubLove @ The Green Man** — maps on {{< sharedlink >}}
+- **PubLove @ The Green Man** — maps on {{< sharedlink "paddington" >}}
 
 ### Snacks / quick
 
@@ -48,6 +48,6 @@ tagline: Chelsea match · Little Venice & the canal
 
 ### Dinner
 
-- **Mimos Cafe Bar** or **Beany Green** — maps on {{< sharedlink >}}
+- **Mimos Cafe Bar** or **Beany Green** — maps on {{< sharedlink "paddington" >}}
 
 </div>

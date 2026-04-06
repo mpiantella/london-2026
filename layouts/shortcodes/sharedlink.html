@@ -1,1 +1,5 @@
-{{- $u := relref .Page "shared.md" -}}<a href="{{ $u }}">Shared</a>
+{{- $u := relref .Page "shared.md" -}}
+{{- with .Get 0 -}}
+  {{- $u = printf "%s#shared-section-%s" $u . -}}
+{{- end -}}
+<a href="{{ $u }}">Shared</a>
